@@ -1,4 +1,3 @@
-const { captureRejectionSymbol } = require("events");
 const fs = require("fs");
 function hasPairSum(input, target) {
   let visitedSet = new Set(input);
